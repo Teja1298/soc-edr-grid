@@ -1,0 +1,5 @@
+sudo ./firewall-block-ip.sh 192.168.1.100
+
+output
+Blocked attacker IP: 192.168.1.100
+
