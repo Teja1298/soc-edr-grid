@@ -1,0 +1,7 @@
+<syscheck>
+  <directories check_all="yes">/etc</directories>
+  <directories check_all="yes">/var/www</directories>
+  <directories check_all="yes">C:\Windows\System32</directories>
+
+  <frequency>300</frequency>
+</syscheck>
