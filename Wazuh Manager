@@ -1,0 +1,14 @@
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+
+sudo bash wazuh-install.sh -a
+
+echo "Wazuh installation complete"
+
+LINUX DEPLOYMENT
+
+curl -sO https://packages.wazuh.com/4.x/wazuh-agent.sh
+
+sudo bash wazuh-agent.sh -a
+
+sudo systemctl enable wazuh-agent
+sudo systemctl start wazuh-agent
