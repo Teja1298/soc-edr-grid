@@ -1,1 +1,19 @@
 sysmon.exe -accepteula -i sysmon-config.xml
+
+<Sysmon schemaversion="4.21">
+  <EventFiltering>
+
+    <!-- Capture process creation with command line details -->
+    <ProcessCreate onmatch="include" />
+
+    <!-- Capture network connections -->
+    <NetworkConnect onmatch="include" />
+
+    <!-- Capture DLL loading (for detecting process injection) -->
+    <ImageLoad onmatch="include" />
+
+    <!-- Capture file creation time changes -->
+    <FileCreateTime onmatch="include" />
+
+  </EventFiltering>
+</Sysmon>
