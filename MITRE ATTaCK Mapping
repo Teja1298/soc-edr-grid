@@ -1,0 +1,12 @@
+
+
+| Attack / Detection Rule        | MITRE ATT&CK ID | Description |
+|--------------------------------|----------------|-------------|
+| Brute Force                     | T1110          | Multiple failed authentication attempts indicating password guessing. |
+| Credential Dumping              | T1003          | Extraction of stored credentials from system memory or files. |
+| Process Injection               | T1055          | Injection of malicious code into legitimate processes to evade detection. |
+| File Integrity Monitoring Alert | T1070.001      | Unauthorized modification or deletion of critical system files. |
+| Suspicious Network Connection   | T1043          | Connections to known C2 servers or unusual external IPs. |
+| DLL Side-Loading                | T1073          | Loading malicious DLLs into trusted processes. |
+| Ransomware Behavior             | T1486          | File encryption activity indicative of ransomware. |
+| Lateral Movement (SMB)          | T1021.002      | Using SMB protocol to move between Windows systems. |
