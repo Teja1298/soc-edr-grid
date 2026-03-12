@@ -1,0 +1,36 @@
+sentient-shield-edr/
+│
+├── README.md
+├── architecture/
+│   └── soc-edr-architecture.png
+│
+├── deployment/
+│   ├── wazuh-manager-install.sh
+│   ├── wazuh-agent-linux.sh
+│   └── wazuh-agent-windows.ps1
+│
+├── sysmon/
+│   ├── sysmon-install.ps1
+│   └── sysmon-config.xml
+│
+├── fim/
+│   └── fim-config.xml
+│
+├── detection-rules/
+│   ├── brute-force-rule.xml
+│   ├── suspicious-process-rule.xml
+│   └── credential-dumping-rule.xml
+│
+├── active-response/
+│   └── firewall-block-ip.sh
+│
+├── mitre-mapping/
+│   └── mitre-rules-reference.md
+│
+├── dashboards/
+│   └── wazuh-dashboard-guide.md
+│
+└── test-attacks/
+    ├── brute-force-test.md
+    ├── file-tamper-test.md
+    └── process-injection-test.md
